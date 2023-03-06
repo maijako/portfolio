@@ -1,0 +1,9 @@
+/* Photo by <a href="https://unsplash.com/fr/@cgower?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christopher Gower</a> on <a href="https://unsplash.com/photos/m_HRfLhgABo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+
+.header-wrapper {
+    position: relative;
+    background: url(../assets/images/header-image.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
