@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import "../styles/Home.css";
 
 function Home() {
   return (
@@ -11,7 +12,19 @@ function Home() {
           </p>
         </div>
       </div>
-      <div className="skills"></div>
+      <div className="skills">
+        <h1> Skills </h1>
+        <ol className="list">
+          <li className="item">
+            <h2>Technical</h2>
+            <span>JavasScript, NodeJs, ReactJs, HTML, CSS, BootStrap, NPM</span>
+          </li>
+          <li className="item">
+            <h2>Other</h2>
+            <span>Learning Design, Product Management, Agile</span>
+          </li>
+        </ol>
+      </div>
     </div>
   )
 }
