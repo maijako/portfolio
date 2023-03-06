@@ -6,7 +6,7 @@ import logo from "../components/logo.png";
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container">
 
                 <a className="navbar-brand" href="https://www.linkedin.com/in/maijakozlova" target="blank"><img className="logo" src={logo} alt="logo..." /></a>
@@ -16,7 +16,7 @@ function Navbar() {
 
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul className="navbar-nav mt-2 mt-lg-0 ms-auto">
-                        <li className="nav-item active">
+                        <li className="nav-item">
                             <Link to="/" className="nav-link">About Me</Link>
                         </li>
                         <li className="nav-item">
