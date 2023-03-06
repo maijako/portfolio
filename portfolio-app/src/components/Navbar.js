@@ -9,7 +9,7 @@ function Navbar() {
         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
             <div className="container">
 
-                <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo..." /></a>
+                <a className="navbar-brand" href="https://www.linkedin.com/in/maijakozlova" target="blank"><img className="logo" src={logo} alt="logo..." /></a>
                 <button className="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" ></span>
                 </button>
@@ -17,16 +17,16 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul className="navbar-nav mt-2 mt-lg-0 ms-auto">
                         <li className="nav-item active">
-                            <a className="nav-link" href="#">About Me</a>
+                            <Link to="/" className="nav-link">About Me</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Projects</a>
+                            <Link to="/projects" className="nav-link">Projects</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Experience</a>
+                            <Link to="/experience" className="nav-link">Experience</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contact</a>
+                            <Link to="/contact" className="nav-link">Contact</Link>
                         </li>
 
 

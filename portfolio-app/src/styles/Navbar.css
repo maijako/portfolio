@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 :root {
     --primary-white: #fff;
-    --primary-orange: #f9ab00;
+    --primary-orange: #f9f100;
 }
-
 
 body {
 font-family: "Roboto Condensed" sans-serif;
