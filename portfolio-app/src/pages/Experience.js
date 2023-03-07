@@ -1,7 +1,6 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import "../styles/Experience.css";
 import { FaGraduationCap } from "react-icons/fa";
 import { FaSuitcase } from "react-icons/fa";
 
