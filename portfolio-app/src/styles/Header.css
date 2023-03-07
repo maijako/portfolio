@@ -2,8 +2,26 @@
 
 .header-wrapper {
     position: relative;
-    background: url(../assets/images/header-image.jpg) no-repeat;
+    background: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 30vh;
+    background-color: var(--primary-blue);
+    height: 20vh;
+}
+
+.greeting,
+.blurb {
+    display: flex;
+    justify-content: center;
+}
+
+.greeting {
+    color: var(--primary-orange);
+    font-weight: bold;
+    
+}
+
+.blurb {
+    color: var(--primary-white);
+    
 }

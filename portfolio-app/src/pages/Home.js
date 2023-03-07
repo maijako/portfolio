@@ -5,25 +5,16 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2>Hi, I'm Maija</h2>
-        <div className="prompt">
-          <p>
-            A software developer with a passion for learning.
-          </p>
-        </div>
+        <h1> About </h1>
+        <p>
+        I'm an experienced EdTech professional and Front-end Web Developer, with over 7 years of experience in Product Management, Agile, Scrum, Learning Experience Design, and a background in Second Language Acquisition. My work ranges from learning experience design to web development
+        </p>
       </div>
       <div className="skills">
         <h1> Skills </h1>
-        <ol className="list">
-          <li className="item">
-            <h2>Technical</h2>
-            <span>JavasScript, NodeJs, ReactJs, HTML, CSS, BootStrap, NPM</span>
-          </li>
-          <li className="item">
-            <h2>Other</h2>
-            <span>Learning Design, Product Management, Agile</span>
-          </li>
-        </ol>
+        <p>
+          JavasScript, Node.js, ReactJS, NPM, HTML, CSS, BootStrap, jQuery
+        </p>
       </div>
     </div>
   )

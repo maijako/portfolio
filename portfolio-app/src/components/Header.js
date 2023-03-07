@@ -5,7 +5,8 @@ function Header() {
   return (
     <div className="header-wrapper">
         <div className="main-info">
-            <h1>Maija Kozlova | Web Developer</h1>
+            <h1 className="greeting">Hi, I'm Maija</h1>
+            <p className="blurb">A web developer with a passion for learning and creating.</p> 
         </div>
     </div>
   )

@@ -2,6 +2,7 @@
 :root {
     --primary-white: #fff;
     --primary-orange: rgb(234, 204, 114);
+    --primary-blue:  rgb(32, 32, 84);
 }
 
 body {
@@ -44,6 +45,10 @@ nav ul li {
 
 .navbar-brand {
     max-width: 17.25rem;
+}
+
+.navbar-custom {
+    background-color: var(--primary-blue);
 }
 
 

@@ -1,0 +1,13 @@
+
+.home > .about > .skills {
+    display: flex;
+}
+
+h1,
+p {
+ color: var(--primary-blue);
+}
+
+h1 {
+    font-weight: bold;
+}

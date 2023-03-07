@@ -6,9 +6,8 @@ import logo from "../components/logo.png";
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-custom navbar-expand-lg navbar-dark ">
             <div className="container">
-
                 <a className="navbar-brand" href="https://www.linkedin.com/in/maijakozlova" target="blank"><img className="logo" src={logo} alt="logo..." /></a>
                 <button className="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" ></span>
