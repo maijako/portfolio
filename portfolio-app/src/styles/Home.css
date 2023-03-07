@@ -1,13 +1,20 @@
 
-.home > .about > .skills {
+.wrapper{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+/* .wrapper > .about > .skills {
     display: flex;
+} */
+
+h1 {
+    text-align: center;
 }
 
 h1,
 p {
  color: var(--primary-blue);
-}
-
-h1 {
-    font-weight: bold;
 }
