@@ -18,3 +18,18 @@ h1,
 p {
  color: var(--primary-blue);
 }
+
+.buttoncontainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn-primary {
+    background-color: var(--primary-blue) !important;
+    border-color: var(--primary-white) !important;
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--primary-orange) !important;
+    border-color: var(--primary-white) !important;
+  }

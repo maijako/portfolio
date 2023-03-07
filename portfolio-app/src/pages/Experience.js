@@ -51,7 +51,7 @@ function Experience() {
 
         <VerticalTimelineElement className="vertical-timeline-element--education"
         date="2022 - Present"
-        iconStyle={{background: "rgb(32, 32, 84)"}}
+        iconStyle={{background: "rgb(234, 204, 114)"}}
         >
           <h3 className="vertical-timeline-element-title">Digital Product Manager </h3>
           <p>Pearson | UK </p>
@@ -59,7 +59,7 @@ function Experience() {
 
         <VerticalTimelineElement className="vertical-timeline-element--education"
         date="2020"
-        iconStyle={{background: "rgb(32, 32, 84)"}}
+        iconStyle={{background: "rgb(234, 204, 114)"}}
         >
           <h3 className="vertical-timeline-element-title">Senior Learning Designer</h3>
           <p>Aula Education | UK </p>
@@ -67,7 +67,7 @@ function Experience() {
 
         <VerticalTimelineElement className="vertical-timeline-element--education"
         date="2015 - 2022"
-        iconStyle={{background: "rgb(32, 32, 84)"}}
+        iconStyle={{background: "rgb(234, 204, 114)"}}
         >
           <h3 className="vertical-timeline-element-title">Senior Assessment Manager</h3>
           <p>Cambridge University Press & Assessment | UK </p>

@@ -1,8 +1,15 @@
-import React from 'react'
+import React from 'react';
+import "../styles/Projects.css";
 
 function Projects() {
   return (
-    <div>Projects</div>
+    <div className="wrapper projects">
+      <h1>Projects</h1>
+      <div className="orjectList">
+        
+      </div>
+      
+      </div>
   )
 }
 
